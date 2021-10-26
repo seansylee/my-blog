@@ -54,12 +54,13 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
+  --color-primary: #ffdd43;
+  --color-text: #e2e2e2
   --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
-  --color-accent: #d1dce5;
+  --color-heading: #363636;
+  --color-heading-black: rgb(71, 71, 71);
+  --color-accent: #292929;
+  --color-background: #ffffff;
 }
 
 /* HTML elements */
@@ -75,6 +76,7 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
 }
 
 body {
@@ -125,6 +127,7 @@ h1 {
 
 h2 {
   font-size: var(--fontSize-5);
+  font-weight: var(--fontWeight-black);
 }
 
 h3 {
