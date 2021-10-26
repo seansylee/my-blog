@@ -3,7 +3,7 @@ module.exports = {
     title: `Temporary Title`,
     author: {
       name: `Sean Lee`,
-      summary: `Life and code .. and all the random things in between`,
+      summary: `Life, code and all the random things in between 💭..`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,

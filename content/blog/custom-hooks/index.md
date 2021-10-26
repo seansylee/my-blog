@@ -1,9 +1,8 @@
 ---
-title: Debunking react custom hooks. 
+title: Understanding react custom hooks. 
 date: "2021-10-26T22:40:32.169Z"
 description: Introduction to React custom hooks.
 ---
-## **Introduction to Custom hooks in React** 
 Consider the typical behavior of a React component: we render the component based on its _**States**_ and subscribe to the changes by its _**Effects**_. With the introduction of _Hooks_ such as `useState()` and `useEffect()` in React (v16.8), we are able to create function components and simplify the behavior in our components with easy to read stateful logic.
 
 While these hooks allow us to conveniently use stateful logic in our function components, without the ability to extract certain reusable logic we will find our component to grow larger and larger. So this begs the question: **_Can_ we extract stateful logic from our components?** 
@@ -161,7 +160,7 @@ const NameInputField = () => {
   );
 }
 ```
-Now with that we have successfully created our custom hook! That wasn't so hard was it?
+Now with that we have successfully created our custom hook!
 
 Hope you were able to find this helpful!
 
